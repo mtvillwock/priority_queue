@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  get 'queues/home'
+  root to: 'queues#home'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api, defaults: { format: :json } do
+    resources :queues #, only: [:show, :create, :index, :delete]
+  end
 end
