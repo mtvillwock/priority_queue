@@ -1,24 +1,10 @@
-# README
+# Priority Queue
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Why?
 
-Things you may want to cover:
+Todo lists can grow to absurd lengths, without any indication of what is most important. Using a priority queue keeps the focus on a single item at a time, and provides more order to a given list's items.
 
-* Ruby version
+TLDR; prioritizing can be difficult.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+TODO:
+- Add priority queue to API route
