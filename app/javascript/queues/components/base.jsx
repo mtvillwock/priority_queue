@@ -10,8 +10,14 @@ export default class Base extends Component {
   render() {
     return (
       <div>
+      <div>
+        <h2>Queue</h2>
         <QueueList />
+      </div>
+      <div>
+        <h2>Accomplishments</h2>
         <List />
+      </div>
       </div>
     );
   }

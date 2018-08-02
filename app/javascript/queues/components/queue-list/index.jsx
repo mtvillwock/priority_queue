@@ -5,7 +5,7 @@ import data from './data';
 export default class QueueList extends Component {
   constructor(props) {
     super(props)
-    this.queues = [{text: 'foo'}, {text: 'bar'}]
+    this.queues = data;
   }
 
   render() {
