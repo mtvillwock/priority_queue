@@ -3,14 +3,14 @@ import {
   BrowserRouter as Router,
   Route
 } from 'react-router-dom'
-import QueueList from './queue-list/'
+import Base from './base'
 
 const App = (props) => (
   <Router>
   <div>
     <Route
       path='/'
-      component={QueueList}
+      component={Base}
     />
   </div>
   </Router>

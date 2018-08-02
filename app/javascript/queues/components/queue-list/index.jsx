@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import Queue from '../queue'
+import Queue from '../queue';
+import data from './data';
 
 export default class QueueList extends Component {
   constructor(props) {
@@ -14,4 +15,4 @@ export default class QueueList extends Component {
       </div>
     );
   }
-}
+};
